@@ -1,6 +1,6 @@
 ---
 layout: post
-title: You're up and running!
+title: TmanTman se eerste post. Booyah.
 ---
 
 So this is awesome. I just inserted my own text into the post
