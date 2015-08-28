@@ -3,7 +3,9 @@ layout: post
 title: TmanTman se eerste post. Booyah.
 ---
 
-So this is awesome. I just inserted my own text into the post
+So this is awesome. I just inserted my own text into the post.
+
+This is also some other text that I just inserted from my own Sublime browser. Awesome Pawsome.
 
 ![_config.yml]({{ site.baseurl }}/images/config.png)
 
