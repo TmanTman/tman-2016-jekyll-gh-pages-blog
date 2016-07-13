@@ -1,0 +1,15 @@
+---
+layout: post
+title: Testing promises Angular
+---
+
+Unit testing pure functions is easy enough: For a given input, you expect a given
+output. But testing with mocks and promises complicates it a bit.
+
+Firstly, define what you mean by testing promise. One of two scenarios is possible:
+
+1. You can inject a promise and, from your unit tests, either reject or resolve the promise
+2. The function you're testing returns a promise, and you have to make sure that if a given
+behaviour in the function executes, that the promise will resolve or reject.
+
+I'll update the post once I take another break. Remind me if I forget and you need to know.

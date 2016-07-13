@@ -1,0 +1,20 @@
+---
+title: Tman TechBlog
+layout: common
+---
+<div class="blogpostslist">
+    <h1>Tman TechBlog</h1>
+    <h2>Spending hours working with tech gives me a desire to out my opinion somewhere. This is that place.</h2>
+    <hr>
+    <div class="postlist">
+        {% for post in site.posts %}
+            <h3><a href="{{ site.baseurl }}{{ post.url }}"{{ post.title }}>{{post.title}}</a></h3>
+            <div class="date"> {{post.date | date: "%B %e, %Y" }} </div>
+            <div class="excerpt">
+                {{post.excerpt}}
+            </div>
+            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> Read More</a>
+            <hr>
+        {% endfor %}
+    </div>
+</div>
