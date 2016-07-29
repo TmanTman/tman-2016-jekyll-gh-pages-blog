@@ -1,25 +1,88 @@
 ---
-layout: default
+layout: common
+title: Home
 ---
-
 <div class="home">
-
-  <h1 class="page-heading">Posts</h1>
-
-  <a href="{{ site.github.url }}/test.html">Link</a>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
+    <div class='row-1 home-about'>
+        <div class="col-2 banner">
+            <h1> Tielman Nieuwoudt</h1>
+            <div class="myphoto-container"></div>
+        </div>
+        <div class="col-1">
+            <h1 class="header">Cool things I work on</h1>
+            <center> <h2> Scryo </h2> </center>
+            <p>
+                <span class="intro">
+                    Like Skype, with a real-time shared whiteboard.
+                </span>
+                Makes it possible to remotely discuss things with someone while using
+                images and drawings to aid the discussion. On mobile or computer. Gamechanger for students, and other industries.
+                Will quickly grow to also do better messaging for visual-based work.
+            </p>
+            <center> <h2>Electrical engineering</h2> </center>
+            <p>
+                <span class="intro">
+                    The long term plan.
+                </span>
+                There is incredible opportunity for combining engineering and
+                start-up entrepreneurship to innovate in the electricity industry.
+                I'll commence my high-voltage training in 2016.
+            </p>
+            <div class="button-div">
+                <a class="button-anchor" href="https://twitter.com/tman_tech">Twitter</a>
+                <a class="button-anchor" href="{{ site.github.url }}/blog.html">DevBlog</a>
+            </div>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <div class='row-2 home-build'>
+        <h1 class="header"> How I build stuff </h1>
+        <p> <span class="intro">I'm pretty agnostic about the language, I'll use what's required to get the job done. </span></p>
+        <div class="col-quarter skill">
+            <center><div class="programming-img"> <image src="../assets/google_android.png"></image></div></center>
+            <p> While building Scryo for the first year, I used Android coupled with a MongoDB database. </p>
+        </div>
+        <div class="col-quarter skill">
+            <center><div class="programming-img">
+                <image src="../assets/ionic-logo-blog.png"></image>
+                <image src="../assets/angular.png"></image>
+                <image src="../assets/firebase.png"></image>
+            </div></center>
+            <p> Since the beginning of 2015 I've been developing extensively using Javascript, Angular, Ionic along with Firebase. </p>
+        </div>
+        <div class="col-quarter skill">
+            <center><div class="programming-img"> <image src="../assets/scala.png"></image></div></center>
+            <p> After completing two courses in Scala, on Functional Programming and Actor-based systems,
+                and I'm really keen to find an application for this skillset.
+            </p>
+        </div>
+        <div class="col-quarter skill">
+            <center><div class="programming-img">
+                <image src="../assets/python.ico"></image>
+                <image src="../assets/matlab.png"></image>
+            </div></center>
+            <p>
+                During my masters I worked with Delphi for GUI development, Matlab for simulations and optimisation,
+                Python for scripting and some SQL.
+            </p>
+        </div>
+        <div style="clear: both"></div>
+    </div>
+    <div class="row-1">
+        <h1 class="header"> Quick CV</h1>
+        <ul class="cv-list">
+            <li>
+                Matriculated 2009. Was mostly concerned with doing cool things in teams. Leading teams.
+                Did some editorial things. School board things. Sport things.
+            </li>
+            <li>
+                Graduated with a Electric and Electronic engineering degree from Stellenbosch 2013. Did mostly
+                just academic things. So much academics.
+            </li>
+            <li>
+                Masters to be completed at the end of 2015. Worked half my time on personal project Scryo,
+                and other half on optimisation and analysis of payback time on solar systems.
+            </li>
+        </ul>
+    </div>
 </div>
