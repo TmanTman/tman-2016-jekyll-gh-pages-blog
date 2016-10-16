@@ -13,7 +13,7 @@ layout: common
             <div class="excerpt">
                 {{post.excerpt}}
             </div>
-            <a href="{{ site.baseurl }}{{ post.url }}" class="read-more"> Read More</a>
+            <a href="{{ "/post.url" | prepend: site.baseurl }}" class="read-more"> Read More</a>
             <hr>
         {% endfor %}
     </div>
