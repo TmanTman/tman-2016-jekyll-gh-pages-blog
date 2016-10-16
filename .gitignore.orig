@@ -1,5 +1,5 @@
-
 _site
+<<<<<<< HEAD
 .DS_Store
 .jekyll
 .bundle
@@ -8,4 +8,7 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+=======
+.sass-cache
 .jekyll-metadata
+>>>>>>> 9859ac1a03eb1d7a0f8c8ffc95fd63d802148112

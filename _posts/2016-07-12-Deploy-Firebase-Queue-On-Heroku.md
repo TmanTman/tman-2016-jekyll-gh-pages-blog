@@ -3,7 +3,7 @@ layout: post
 title: Deploy Firebase Queue On Heroku
 ---
 
-Queues are made to submit tasks to, and a server then processes the tasks from the Queue. Firebase has a dedicated open source project to do this all for you - [described fully on the firebase-queue repo](https://github.com/firebase/firebase-queue).
+If you have work that needs to be done on the server - push it to a queue, and let the server process it from the queue. Firebase has a dedicated open source project to do this all for you - [described fully on the firebase-queue repo](https://github.com/firebase/firebase-queue).
 
 This guide will demonstrate how a simple firebase-queue can be deployed both locally and to a Heroku server.
 
